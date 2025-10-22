@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OperationSuccessful" xml:space="preserve">
+    <value>Operation successful</value>
+  </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>Operation failed</value>
+  </data>
+  <data name="UnauthorizedAccess" xml:space="preserve">
+    <value>Unauthorized access</value>
+  </data>
+  <data name="ResourceNotFound" xml:space="preserve">
+    <value>Resource not found</value>
+  </data>
+  <data name="InternalServerError" xml:space="preserve">
+    <value>Internal server error</value>
+  </data>
+  <data name="LoginSuccessful" xml:space="preserve">
+    <value>Login successful</value>
+  </data>
+  <data name="InvalidUsernameOrPassword" xml:space="preserve">
+    <value>Invalid username or password</value>
+  </data>
+  <data name="RefreshTokenRequired" xml:space="preserve">
+    <value>Refresh token is required</value>
+  </data>
+  <data name="RefreshTokenSuccessful" xml:space="preserve">
+    <value>Token refreshed successfully</value>
+  </data>
+  <data name="LogoutSuccessful" xml:space="preserve">
+    <value>Logout successful</value>
+  </data>
+  <data name="OldAndPasswordRequired" xml:space="preserve">
+    <value>Old password and new password are required</value>
+  </data>
+  <data name="PasswordsDoNotMatch" xml:space="preserve">
+    <value>New password and confirm password do not match</value>
+  </data>
+  <data name="PasswordChangeFailed" xml:space="preserve">
+    <value>Password change failed, old password may be incorrect</value>
+  </data>
+  <data name="PasswordChangeSuccessful" xml:space="preserve">
+    <value>Password changed successfully</value>
+  </data>
+  <data name="UsernameAlreadyExists" xml:space="preserve">
+    <value>Username already exists</value>
+  </data>
+  <data name="UserCreationSuccessful" xml:space="preserve">
+    <value>User created successfully</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="PasswordResetSuccessful" xml:space="preserve">
+    <value>Password reset successfully</value>
+  </data>
+  <data name="LanguageSettingsRetrieved" xml:space="preserve">
+    <value>Language settings retrieved successfully</value>
+  </data>
+  <data name="DefaultLanguageRequired" xml:space="preserve">
+    <value>Default language is required</value>
+  </data>
+  <data name="LanguageSettingsUpdateFailed" xml:space="preserve">
+    <value>Language settings update failed</value>
+  </data>
+  <data name="LanguageSettingsUpdateSuccessful" xml:space="preserve">
+    <value>Language settings updated successfully</value>
+  </data>
+  <data name="PreferredLanguageRequired" xml:space="preserve">
+    <value>Preferred language is required</value>
+  </data>
+  <data name="PreferredLanguageUpdateSuccessful" xml:space="preserve">
+    <value>Preferred language updated successfully</value>
+  </data>
+  <data name="CaptchaRequired" xml:space="preserve">
+    <value>Please enter the captcha</value>
+  </data>
+  <data name="CaptchaIdRequired" xml:space="preserve">
+    <value>Captcha ID is required</value>
+  </data>
+  <data name="CaptchaInvalid" xml:space="preserve">
+    <value>Invalid captcha</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Invalid username or password</value>
+  </data>
+  <data name="AccountLocked" xml:space="preserve">
+    <value>Account is locked, please try again after 10 minutes</value>
+  </data>
+  <data name="UploadPreparedSuccessfully" xml:space="preserve">
+    <value>Upload preparation completed successfully</value>
+  </data>
+  <data name="UploadPreparationFailed" xml:space="preserve">
+    <value>Upload preparation failed</value>
+  </data>
+  <data name="ChunkUploadedSuccessfully" xml:space="preserve">
+    <value>File chunk uploaded successfully</value>
+  </data>
+  <data name="ChunkUploadFailed" xml:space="preserve">
+    <value>File chunk upload failed</value>
+  </data>
+  <data name="FileUploadCompleted" xml:space="preserve">
+    <value>File upload completed successfully</value>
+  </data>
+  <data name="FileUploadFailed" xml:space="preserve">
+    <value>File upload failed</value>
+  </data>
+  <data name="NoPermissionToUpload" xml:space="preserve">
+    <value>No permission to upload files to this folder</value>
+  </data>
+  <data name="InvalidFolder" xml:space="preserve">
+    <value>Invalid folder</value>
+  </data>
+  <data name="DownloadUrlGeneratedSuccessfully" xml:space="preserve">
+    <value>Download URL generated successfully</value>
+  </data>
+  <data name="DownloadUrlGenerationFailed" xml:space="preserve">
+    <value>Failed to generate download URL</value>
+  </data>
+  <data name="InvalidDownloadToken" xml:space="preserve">
+    <value>Invalid download token</value>
+  </data>
+  <data name="DownloadTokenExpired" xml:space="preserve">
+    <value>Download token has expired</value>
+  </data>
+  <data name="DownloadTokenAlreadyUsed" xml:space="preserve">
+    <value>Download token has already been used</value>
+  </data>
+  <data name="GenerateDownloadUrlFailed" xml:space="preserve">
+    <value>Failed to generate download URL</value>
+  </data>
+  <data name="FolderUpdatedSuccessfully" xml:space="preserve">
+    <value>Folder updated successfully</value>
+  </data>
+  <data name="FolderUpdateFailed" xml:space="preserve">
+    <value>Failed to update folder</value>
+  </data>
+  <data name="NoPermissionToUpdateFolder" xml:space="preserve">
+    <value>No permission to update this folder</value>
+  </data>
+  <data name="ConfirmDeleteFolder" xml:space="preserve">
+    <value>Confirm Delete Folder</value>
+  </data>
+  <data name="ConfirmDeleteFolderContent" xml:space="preserve">
+    <value>Are you sure you want to delete this folder? This action cannot be undone.</value>
+  </data>
+  <data name="LogoUploadSuccessful" xml:space="preserve">
+    <value>Logo uploaded successfully</value>
+  </data>
+  <data name="InvalidLogoType" xml:space="preserve">
+    <value>Invalid logo type</value>
+  </data>
+  <data name="NoFileUploaded" xml:space="preserve">
+    <value>No file uploaded</value>
+  </data>
+  <data name="InvalidFileType" xml:space="preserve">
+    <value>Invalid file type</value>
+  </data>
+  <data name="FileSizeTooLarge" xml:space="preserve">
+    <value>File size exceeds limit</value>
+  </data>
+  <data name="UpdateLogoPathFailed" xml:space="preserve">
+    <value>Failed to update logo path</value>
+  </data>
+  <data name="LogoUploadFailed" xml:space="preserve">
+    <value>Logo upload failed</value>
+  </data>
+  <data name="FileSharedSuccessfully" xml:space="preserve">
+    <value>File shared successfully</value>
+  </data>
+  <data name="FolderSharedSuccessfully" xml:space="preserve">
+    <value>Folder shared successfully</value>
+  </data>
+  <data name="FileShareFailed" xml:space="preserve">
+    <value>Failed to share file</value>
+  </data>
+  <data name="FolderShareFailed" xml:space="preserve">
+    <value>Failed to share folder</value>
+  </data>
+  <data name="NoPermissionToShareFile" xml:space="preserve">
+    <value>No permission to share this file</value>
+  </data>
+  <data name="NoPermissionToShareFolder" xml:space="preserve">
+    <value>No permission to share this folder</value>
+  </data>
+  <data name="ShortLinkGeneratedSuccessfully" xml:space="preserve">
+    <value>Short link generated successfully</value>
+  </data>
+  <data name="ShortLinkGenerationFailed" xml:space="preserve">
+    <value>Failed to generate short link</value>
+  </data>
+  <data name="InvalidShortCode" xml:space="preserve">
+    <value>Invalid short code</value>
+  </data>
+  <data name="ShareExpired" xml:space="preserve">
+    <value>Share has expired</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>File not found</value>
+  </data>
+  <data name="FolderNotFound" xml:space="preserve">
+    <value>Folder not found</value>
+  </data>
+  <data name="InvalidItemType" xml:space="preserve">
+    <value>Invalid item type</value>
+  </data>
+  <data name="ItemRetrievalFailed" xml:space="preserve">
+    <value>Failed to retrieve item</value>
+  </data>
+  <data name="PasswordValid" xml:space="preserve">
+    <value>Password validated successfully</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>Invalid password</value>
+  </data>
+  <data name="PasswordValidationFailed" xml:space="preserve">
+    <value>Password validation failed</value>
+  </data>
+  <data name="Anonymous" xml:space="preserve">
+    <value>Anonymous</value>
+  </data>
+</root>

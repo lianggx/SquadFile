@@ -1,0 +1,75 @@
+{
+  "pages": [
+    {
+      "path": "src/pages/auth/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "src/pages/home",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "src/pages/profile",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "src/pages/admin",
+      "style": {
+        "navigationBarTitleText": "系统管理"
+      }
+    },
+    {
+      "path": "src/pages/admin/settings",
+      "style": {
+        "navigationBarTitleText": "系统设置"
+      }
+    },
+    {
+      "path": "src/pages/profile/change-password",
+      "style": {
+        "navigationBarTitleText": "修改密码"
+      }
+    },
+    {
+      "path": "src/pages/profile/edit-profile",
+      "style": {
+        "navigationBarTitleText": "编辑资料"
+      }
+    },
+    {
+      "path": "src/pages/test",
+      "style": {
+        "navigationBarTitleText": "API测试"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "SquadFile",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "src/pages/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "src/pages/profile",
+        "text": "我的"
+      }
+    ]
+  }
+}

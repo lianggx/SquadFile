@@ -1,0 +1,34 @@
+/* 字体图标样式 */
+
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-home {
+  background-image: url('../../static/icons/home.png');
+}
+
+.icon-home-selected {
+  background-image: url('../../static/icons/home-selected.png');
+}
+
+.icon-profile {
+  background-image: url('../../static/icons/profile.png');
+}
+
+.icon-profile-selected {
+  background-image: url('../../static/icons/profile-selected.png');
+}
+
+.icon-admin {
+  background-image: url('../../static/icons/admin.png');
+}
+
+.icon-admin-selected {
+  background-image: url('../../static/icons/admin-selected.png');
+}
